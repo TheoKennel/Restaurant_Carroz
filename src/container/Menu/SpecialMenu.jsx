@@ -16,7 +16,7 @@ const SpecialMenu = () => (
         <div className='app__spêcialMenu_menu_items'>
           {/* Mettre en composant "menu item" les élements de la liste wine avec .map */}
           {data.wines.map((wine, index) =>(
-          <MenuItem key={wine.title + index} title={wine.price} price={wine.price} tags={wine.tags} />
+          <MenuItem key={wine.title + index} title={wine.title} price={wine.price} tags={wine.tags} />
             ))}
         </div>
       </div>
