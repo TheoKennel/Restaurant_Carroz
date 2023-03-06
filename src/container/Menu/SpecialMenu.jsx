@@ -20,12 +20,13 @@ const SpecialMenu = () => (
             ))}
         </div>
       </div>
+
       <div className='app__specialMenu-menu_img'>
-        <img src={images.menu} alt="menu img" />
+        <img src={images.menu} alt="menu__img" />
       </div>
 
       <div className='app__specialMenu-menu_cocktails flex__center'>
-        <p className='app__specialMenu-menu_heading'>Wine & Beer</p>
+        <p className='app__specialMenu-menu_heading'>Cocktails</p>
         <div className='app__spêcialMenu_menu_items'>
           {/* Mettre en composant "menu item" les élements de la liste cocktail avec .map */}
           {data.cocktails.map((cocktail, index) =>(
